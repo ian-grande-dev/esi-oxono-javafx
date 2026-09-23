@@ -23,7 +23,7 @@ Academic project developed at HE2B-ESI (Brussels).
 - Two game modes: **JavaFX GUI** and **console**
 - Human vs Human, Human vs Bot, Bot vs Bot
 - Two bot levels: easy (random moves) and medium (detects winning moves)
-- **Undo / Redo** of any action
+- **Undo / Redo**
 - Configurable board size (4 to 10)
 - Surrender by holding a button for 5 seconds (prevents accidental clicks)
 - Highlighting of valid cells
@@ -172,6 +172,7 @@ src/main/java/be/esi/dev/oxono/
 ├── strategy/      Bot strategies
 ├── util/          Enums (Color, Symbol, GamePhase)
 └── view/          Console view
+
 src/main/resources/
 ├── view/          FXML files
 └── images/        Pawn images
@@ -186,8 +187,8 @@ src/main/resources/
 
 ### Run the graphical version
 ```
-git clone https://github.com/YOUR_USERNAME/oxono.git
-cd oxono
+git clone https://github.com/ian-grande-dev/esi-oxono-javafx.git
+cd esi-oxono-javafx
 mvn javafx:run
 ```
 Alternatively, open the project in IntelliJ IDEA and run `be.esi.dev.oxono.main.MainFX`.
@@ -216,7 +217,7 @@ Released under the MIT License. See the [LICENSE](LICENSE) file.
 
 ## Author
 
-**Ian** — Computer science student at HE2B-ESI, Brussels
+**Ian** - Computer science student at HE2B-ESI, Brussels
 Looking for a developer internship (February to May 2027)
 
 [LinkedIn](https://www.linkedin.com/in/ian-grande/) · [Email](mailto:ian.grande.pro@gmail.com)
