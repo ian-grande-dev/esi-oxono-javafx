@@ -1,0 +1,55 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+StackPane {
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+}
+
+Label {
+    -fx-text-fill: #2c3e50;
+}
+
+.label-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+#player1InfoLabel {
+    -fx-text-fill: deeppink;
+}
+
+#player2InfoLabel {
+    -fx-text-fill: black;
+}
+
+#player1InfoLabel, #player2InfoLabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 0 4px 0;
+}
+
+HBox > Label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #7f8c8d;
+    -fx-min-width: 20px;
+}
+
+#player1XTokensLabel, #player1OTokensLabel,
+#player2XTokensLabel, #player2OTokensLabel {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 6px;
+    -fx-padding: 4px 8px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-min-width: 30px;
+    -fx-alignment: center;
+}
+
+HBox {
+    -fx-spacing: 8px;
+}

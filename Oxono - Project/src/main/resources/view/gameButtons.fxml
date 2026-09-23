@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="be.esi.dev.oxono.controller.fxml.GameButtonsController"
+            stylesheets="@../style/gameButtons.css">
+
+    <StackPane minWidth="200">
+        <VBox alignment="CENTER" spacing="20">
+            <HBox alignment="CENTER" spacing="10">
+                <Button text="Undo" onAction="#onUndoButtonClick"/>
+                <Button text="Redo" onAction="#onRedoButtonClick"/>
+            </HBox>
+            <Button text="Surrender" onMousePressed="#onSurrenderButtonPressed" onMouseReleased="#onSurrenderButtonReleased"/>            <Button text="Home" onAction="#onBackToSetupButtonClick" />
+        </VBox>
+    </StackPane>
+</AnchorPane>

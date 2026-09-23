@@ -1,0 +1,39 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+AnchorPane {
+    -fx-background-color: #4A148C;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+}
+
+.gameGrid {
+    -fx-background-color: deeppink;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 6, 0, 0, 2);
+}
+
+.gameGrid > * {
+    -fx-border-color: deeppink;
+    -fx-border-width: 2px;
+    -fx-background-color: #4A148C;
+    -fx-background-radius: 4px;
+}
+
+.gameGrid > *:hover {
+    -fx-background-color: #4A148C;
+    -fx-cursor: hand;
+}
+
+.validPosition {
+    -fx-background-color: #3498db;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.5), 4, 0, 0, 0);
+    -fx-border-color: #2980b9;
+}
+
+.validPosition:hover {
+    -fx-background-color: #2980b9;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.7), 6, 0, 0, 0);
+}

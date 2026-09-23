@@ -1,0 +1,64 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+StackPane {
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+}
+
+Button {
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-min-width: 80px;
+}
+
+HBox > Button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.3), 4, 0, 0, 1);
+}
+
+HBox > Button:hover {
+    -fx-background-color: #2980b9;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.5), 6, 0, 0, 2);
+}
+
+HBox > Button:pressed {
+    -fx-background-color: #21618c;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.2), 2, 0, 0, 1);
+}
+
+HBox > Button:disabled {
+    -fx-background-color: #bdc3c7;
+    -fx-text-fill: #7f8c8d;
+    -fx-effect: none;
+    -fx-cursor: default;
+}
+
+VBox > Button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(231, 76, 60, 0.3), 4, 0, 0, 1);
+}
+
+VBox > Button:hover {
+    -fx-background-color: #c0392b;
+    -fx-effect: dropshadow(gaussian, rgba(231, 76, 60, 0.5), 6, 0, 0, 2);
+}
+
+VBox > Button:pressed {
+    -fx-background-color: #a93226;
+    -fx-effect: dropshadow(gaussian, rgba(231, 76, 60, 0.2), 2, 0, 0, 1);
+}
+
+HBox {
+    -fx-spacing: 10px;
+}
+
+VBox {
+    -fx-spacing: 20px;
+}

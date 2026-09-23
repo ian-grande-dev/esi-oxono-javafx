@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="750.0" prefWidth="1000.0" stylesheets="@../style/game.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.esi.dev.oxono.controller.fxml.GameController">
+
+    <top>
+        <HBox alignment="CENTER">
+            <Label prefHeight="35.0" text="Oxono Game">
+            <font>
+               <Font size="24.0" />
+            </font></Label>
+        </HBox>
+    </top>
+
+    <center>
+        <fx:include fx:id="board" maxHeight="600" maxWidth="600" source="board.fxml" />
+    </center>
+
+    <left>
+        <VBox alignment="CENTER">
+            <fx:include fx:id="playerInformation" source="playerInformation.fxml" />
+        </VBox>
+    </left>
+
+    <right>
+        <VBox alignment="CENTER">
+            <fx:include fx:id="gameButtons" source="gameButtons.fxml" />
+        </VBox>
+    </right>
+
+    <bottom>
+        <StackPane minHeight="100">
+            <VBox alignment="CENTER" spacing="10">
+                <Label fx:id="turnMessageLabel" text="" />
+                <Label fx:id="statusMessageLabel" text="Waiting for players..." />
+                <Label fx:id="errorMessageLabel" text="" />
+            </VBox>
+        </StackPane>
+    </bottom>
+
+</BorderPane>

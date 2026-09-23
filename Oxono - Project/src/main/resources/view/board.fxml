@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="be.esi.dev.oxono.controller.fxml.BoardController"
+          prefHeight="600.0" prefWidth="600.0"
+          stylesheets="@../style/board.css">
+
+    <GridPane fx:id="gameGridPane"
+            AnchorPane.topAnchor="0.0"
+            AnchorPane.rightAnchor="0.0"
+            AnchorPane.bottomAnchor="0.0"
+            AnchorPane.leftAnchor="0.0"
+            styleClass="gameGrid"
+            gridLinesVisible="true"
+            prefHeight="600.0"
+            prefWidth="600.0"
+            minHeight="600.0"
+            minWidth="600.0"
+            maxHeight="600.0"
+            maxWidth="600.0">
+    </GridPane>
+
+</AnchorPane>
