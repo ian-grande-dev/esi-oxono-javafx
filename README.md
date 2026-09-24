@@ -217,7 +217,6 @@ Released under the MIT License. See the [LICENSE](LICENSE) file.
 
 ## Author
 
-**Ian** - Computer science student at HE2B-ESI, Brussels
-Looking for a developer internship (February to May 2027)
+**Ian** - Student in Application Development at HE2B-ESI, Brussels
 
-[LinkedIn](https://www.linkedin.com/in/ian-grande/) · [Email](mailto:ian.grande.pro@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/ian-grande/) · [GitHub](https://github.com/ian-grande-dev) · [Email](mailto:ian.grande.pro@gmail.com)
